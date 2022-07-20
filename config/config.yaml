@@ -1,0 +1,12 @@
+database:
+  user: test
+  password: root
+  net: tcp
+  addr: go_mysql:3307
+  dbname: go-clean-architecture
+  allowNativePasswords: true
+  params:
+    parseTime: "true"
+
+server:
+  address: 8080
