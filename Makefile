@@ -7,4 +7,7 @@ migrate-up:
 migrate-down:
 	$(MIGRATE) -verbose down -all
 
-.PHONY: migrate-up migrate-down
+test:
+	go test -v ./test/...
+
+.PHONY: migrate-up migrate-down test
