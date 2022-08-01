@@ -2,9 +2,9 @@ package interactor_test
 
 import (
 	"errors"
-	"go-clean-architecture/domain/mocks"
 	"go-clean-architecture/domain/model"
 	"go-clean-architecture/interface/presenter"
+	mocks "go-clean-architecture/mocks/repository"
 	"go-clean-architecture/usecase/interactor"
 	"testing"
 	"time"
