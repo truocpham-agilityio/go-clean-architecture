@@ -14,3 +14,7 @@ Sample repository for implementing a clean architecture with Go.
 ```bash
 make test
 ```
+
+## Diagram
+
+![Diagram](./assets/images/Golang_Clean_Archiecture.png)
